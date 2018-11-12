@@ -1,0 +1,29 @@
+[package]
+name = "widerwlock"
+version = "0.5.0"
+authors = ["Mohammad Rezaei <mohdev@rezaei.cc>"]
+license = "MIT/Apache-2.0"
+keywords = ["lock", "read-write", "rwlock"]
+readme = "README.md"
+repository = "https://github.com/mohrezaei/widerwlock"
+homepage = "https://github.com/mohrezaei/widerwlock"
+documentation = "https://docs.rs/widerwlock"
+description = """
+A partitioned read-write lock optimized for many parallel readers.
+"""
+exclude = [
+    ".travis.yml",
+    "benchmarks/*",
+    "benches/*",
+    ".gitignore",
+    ".gitattributes",
+    "tests/*"
+]
+
+[dependencies]
+parking_lot_core = "0.3"
+
+[dev-dependencies]
+rand = "0.5.5"
+xoshiro = "0.0.4"
+parking_lot = "0.6"

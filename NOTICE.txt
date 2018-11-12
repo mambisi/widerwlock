@@ -1,0 +1,9 @@
+Wide Read-Write Lock for Rust
+Copyright 2018 Mohammad Rezaei
+Licensed under Apache 2.0 license
+
+This product depends on the following software:
+
+parkling_lot_core
+Copyright Amanieu d'Antras
+Licensed under the MIT license
